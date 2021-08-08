@@ -44,6 +44,12 @@
     </PreferenceCategory>
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="artwork_media_background"
+        android:title="@string/artwork_media_background_title"
+        android:summary="@string/artwork_media_background_summary"
+        android:defaultValue="false" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="headers_icons_style"
         android:title="@string/header_icons_style"
         android:summary="@string/header_icons_style_summary"
